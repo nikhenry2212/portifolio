@@ -405,7 +405,7 @@ header {
   width: 35%;
 
   background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-    url("/img/diana-akhmetianova-s358rpxEALI-unsplash.jpg");
+    url("/portifolio/img/diana-akhmetianova-s358rpxEALI-unsplash.jpg");
   background-size: cover;
 }
 .contato-right {
@@ -480,7 +480,7 @@ header {
 .sessao-orcamento {
   width: 100%;
   height: 100vh;
-  background: url("/img/bg-orcamento.jpg");
+  background: url("/portifolio/img/bg-orcamento.jpg");
   object-fit: cover;
   display: flex;
   justify-content: center;
