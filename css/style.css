@@ -13,6 +13,9 @@
   --font-secudary: "Josefin Slab", serif;
   --font-action: "Mulish", serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 .hamburguer {
   /* background-color: #ff00cc; */
   width: 2rem;
@@ -480,7 +483,7 @@ header {
   object-fit: cover;
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
 }
 .orcamento-wrapper {
   width: 60%;
@@ -542,3 +545,62 @@ header {
   cursor: pointer;
   grid-column: 2;
 }
+footer{
+  width: 100%;
+  height: 7rem;
+  background-color:#17181b;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.footer-content{
+  width: 60%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.footer-content p{
+  font-family: var(--font-secudary);
+  color: #a7a7a7;
+  font-size: 1.2rem;
+
+}
+.social-list a{
+  margin: 0 2rem;
+
+  color:#a7a7a7 ;
+  font-size: 1.3rem;
+
+
+}
+.social-list ul{
+  display: flex;
+}
+#link-topo{
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #159957; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #155799,
+    #159957
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #155799,
+    #159957
+  );
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  color: #ffffff;
+  border-radius: .3rem;
+  box-shadow: 0 0.1rem 0.6rem #00000009;
+}
+
+
